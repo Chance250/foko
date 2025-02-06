@@ -1,0 +1,30 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+<body>
+    <p><input type="number" id="answer"></p>
+    
+    <button onclick="desplayanswer()" id="hii">click me</button>
+    
+
+    <script>
+        function desplayanswer() {
+            const answer= document.getElementById('answer').value;
+            if (answer >= 10) {
+                document.getElementById('hii').innerHTML="vggt6";
+            }
+             else {
+                document.getElementById('hii').innerHTML="ttt";
+            }
+        }
+    }
+    
+    </script>
+    
+</body>
+</html>
